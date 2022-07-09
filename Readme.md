@@ -2,7 +2,7 @@
 
 A simple example of making gorgeous CLI's with Typescript, Commander.js, and ora.
 
-Read this blog post for more information.
+Read [this blog post](https://blog.terrible.dev/Building-attractive-CLIs-in-JavaScript/) for more information.
 
 
 
