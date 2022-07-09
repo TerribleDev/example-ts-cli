@@ -1,0 +1,22 @@
+{
+  "name": "terribledev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --noEmit ./index.ts && esbuild index.ts --bundle --platform=node --format=cjs --outfile=dist/index.js",
+    "build:notype": "esbuild index.ts --bundle --platform=node --format=cjs --outfile=dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.3",
+    "commander": "^9.3.0",
+    "esbuild": "^0.14.48",
+    "ora": "^6.1.2"
+  },
+  "bin": {
+    "terribledev": "./dist/index.js"
+  }
+}
