@@ -12,7 +12,7 @@ widgets.command("list").action(async () => {
 })
 
 widgets.command("get")
-.argument("widget id <id>", "the id of the widget")
+.argument("<id>", "the id of the widget")
 .option("-f, --format <format>", "the format of the widget")
 .action(async (id, options) => {
     updateSpinnerText("Getting widget " + id);
