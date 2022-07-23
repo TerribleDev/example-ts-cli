@@ -18,5 +18,8 @@
   },
   "bin": {
     "terribledev": "./dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
