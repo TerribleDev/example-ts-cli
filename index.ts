@@ -7,7 +7,6 @@ const program = new Command();
 program.description('Our New CLI');
 program.option('-v, --verbose', 'verbose logging');
 program.version('0.0.1');
-program.addHelpCommand()
 program.addCommand(widgets);
 
 async function main() {
