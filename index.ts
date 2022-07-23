@@ -3,7 +3,8 @@
 import { Command } from 'commander'
 import { spinnerError, stopSpinner } from './spinner';
 import { widgets } from './widgets';
-const program = new Command('Our New CLI');
+const program = new Command();
+program.description('Our New CLI');
 program.option('-v, --verbose', 'verbose logging');
 program.version('0.0.1');
 program.addHelpCommand()
